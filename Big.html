@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>详情</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		a:link{ 
+			text-decoration: none;
+		}
+		.stright{
+			float:left;
+			margin-left:3px;
+			color:#ebe7e7;
+			width:1px;
+			height:18px;
+		}
+		.one{
+			float:left;
+			width:55px;
+			height:20px;
+			font-size:13px;
+		}
+		.two{
+			float:left;
+			margin-left:6px;
+			width:70px;
+			height:20px;
+			font-size:13px;
+		}
+		.three{
+			float:left;
+			margin-left:7px;
+			font-size:13px;
+			width:42px;
+			height:20px;
+		}
+		.four{
+			float:left;
+			margin-left:8px;
+			width:55px;
+			height:20px;
+			font-size:13px;
+		}
+		.five{
+			float:left;
+			margin-left:8px;
+			width:65px;
+			height:20px;
+			font-size:13px;
+		}
+		.six{
+			float:left;
+			margin-left:8px;
+			width:60px;
+			height:20px;
+			font-size:13px;
+		}
+		.seven{
+			float:left;
+			margin-left:8px;
+			width:40px;
+			height:20px;
+			font-size:13px;
+		}
+		.eight{
+			float:left;
+			margin-left:8px;
+			width:30px;
+			height:20px;
+			font-size:13px;
+		}
+		.nine{
+			float:left;
+			margin-left:8px;
+			width:45px;
+			height:20px;
+			font-size:13px;
+		}
+		.ten{
+			float:left;
+			margin-left:8px;
+			width:20px;
+			height:20px;
+			font-size:13px;
+		}
+		.black1{
+			width:100%;
+			height:40px;
+			float:left;
+			background-color:#000000;
+		}
+		#d{
+			width:1010px;
+			height:40px;
+			float:left;
+			margin-left:84px;
+			background-color:#000000;
+		}
+		#a1{
+			color:white;
+			float:left;
+			padding-top:10px;
+			padding-bottom:10px;
+			padding-left:30px;
+			padding-right:30px;
+		}
+		#d a:hover{
+			background-color:#fe0d4a;
+		}
+		.black{
+			width:168px;
+			height:40px;
+			float:left;
+		}
+		.li{
+			line-height:25px;
+		}
+		#menu{
+			width:654px;
+			height:16px;
+			float:left;
+			margin-left:290px;
+		}
+		#menu li{
+			display:inline;
+			text-decoration:none;
+			font-size:12px;
+			color:#666560;
+			margin-left:5px;
+		}
+		#menu li a{
+			text-decoration:none;
+			color:#666560;
+		}
+		#bbox{width:800px;height:400px;position:relative; margin-top:20px;margin-left:20px;}
+		#G1{width:400px;height:410px;position:absolute;left:0;top:0;border:solid;border-color:#d0cdc7;}
+		#sli{width:150px;height:150px;position:absolute;left:0;top:0;background:#CCC;opacity:0.4;cursor: move;display:none; filter:alpha(opacity=40);}
+		#G2{position:absolute;right:0;top:0;display:none;width:410px;height:410px;overflow:hidden;}
+		#Bimg{position:absolute;left:0;top:0;}
+	</style>
+</head>
+<body>
+	<div class="cover" style="width:100%;height:156px;float:left;">
+		<div  style="float:left;height:30px;width:100%;margin-top:6px;">
+			<div  style="width:80px;height:14px;font-size:12px;color:#9a9791;float:left;margin-left:83px;">帮5买，享帮帮</div>
+			<div style="width:800px;height:30px;float:left;margin-left:310px;">
+				<div style="width:22px;height:22px;float:left;background:url(img/common_min.png) 0 -31px;"></div>
+				<div  style="width:22px;height:22px;float:left;margin-left:20px;background:url(img/common_min.png) 0 -51px;"></div>
+				<div style="width:22px;height:22px;float:left;margin-left:20px;background:url(img/common_min.png) 0 -73px;"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-left:16px;margin-top:4px;">登录</a>
+				<a href=""  style="font-size:13px;color:#9a9791;float:left;margin-left:16px;margin-top:4px;">注册</a>
+				<div style="width:16px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/dingdan.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">消息</a>
+				<div style="width:16px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/dingdan.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">我的订单</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">我的收藏</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">帮钻兑换</a>
+				<div style="width:10px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/tp-my-phone.png"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">手机版</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">帮5淘</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">客户服务</a>
+				<div style="width:5px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/gouwuche.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">购物车</a>
+				<div style="font-size:13px;color:#fe6c00;font-weight:bold;float:left;margin-top:4px;margin-left:8px;">0</div>
+			</div>
+		</div>
+		<div style="float:left;height:115px;width:1180px;margin-left:83px;">
+			<div style="float:left;height:63px;width:143px;margin-top:14px;">
+				<img src="img/logo_03.jpg"></div>
+			<div style="width:590px;height:50px;float:left;margin-left:70px;margin-top:28px;">
+				<div style="width:590px;height:50px;float:left;">
+					<div style="width:503px;height:42px;float:left;margin-top:2px;">
+						<form>
+							<input type="text" name="init" style="width:500px;height:40px;border-width:4px;border-color:#fe6c00;" placeholder="输入商品网址或关键词，直通全网，快速帮5购！">
+						</form>
+					</div>
+					<div style="width:83px;height:48px;float:left;font-size:14px;color:white;background-color:#fe6c00;text-align:center;margin-top:1px;">
+						<p style="margin-top:15px"><a href="" style="color:white;">搜全网</a></p>
+					</div>
+				</div>
+				<div style="float:left;margin-top:10px;width:590px;height:23px;">
+					<div class="one"><a href="" style="color:#fe6c00;">洗发护发</a></div>
+					<div class="stright">|</div>
+					<div class="two"><a href="" style="color:#fe6c00;">日本纸尿裤</a></div>
+					<div class="stright">|</div>
+					<div class="three"><a href="">身体乳</a></div>
+					<div class="stright">|</div>
+					<div class="four"><a href="">内衣文胸</a></div>
+					<div class="stright">|</div>
+					<div class="five"><a href="" style="color:#b5a9d3;">iPhone 6s</a></div>
+					<div class="stright">|</div>
+					<div class="six"><a href="" style="color:#b5a9d3;">iPad Air2</a></div>
+					<div class="stright">|</div>
+					<div class="seven"><a href="">牛仔裤</a></div>
+					<div class="stright">|</div>
+					<div class="eight"><a href="">奶粉</a></div>
+					<div class="stright">|</div>
+					<div class="nine"><a href="">防晒霜</a></div>
+					<div class="stright">|</div>
+					<div class="ten"><a href="">伞</a></div>
+				</div>
+			</div>
+			<div style="width:280px;height:42px;float:left;margin-left:60px;margin-top:28px;">
+				<div style="width:95px;height:41px;float:left;border:solid;border-color:#e6e5e2;">
+					<div style="width:18px;height:18px;float:left;margin-left:32px;margin-top:6px;background:url(img/common_min.png) 0 -95px;"></div><div style="font-size:14px;width:95px;height:14px;float:left;color:#9a979e;">400-085-0505</div>
+				</div>
+				<div style="width:95px;height:41px;float:left;border:solid;border-color:#e6e5e2;">
+					<div style="width:18px;height:18px;float:left;margin-left:32px;margin-top:6px;background:url(img/common_min.png) 0 -113px;"></div><div style="font-size:14px;width:95px;height:14px;float:left;color:#9a979e;">mc@b5m.com</div>
+				</div>
+				<div style="width:82px;height:44px;float:left;background-color:#ff4d04;">
+					<div style="float:left;width:12px;height:12px;margin-left:2px;margin-top:15px;">
+					<img src="img/wenhao.jpg"></div>
+					<a href="" style="height:22px;float:left;margin-top:15px;margin-left:5px;font-size:11px;color:white;">常见问题</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="black1">
+		<div id="d">
+			<a id="a1" href="" style="padding-left:30px;padding-right:30px;background-color:#fe0d4a;">首页</a>
+			<a id="a1" href="">热门品牌</a>
+			<a id="a1" href="">美妆个户</a>
+			<a id="a1" href="">服饰鞋包</a>
+			<a id="a1" href="">母婴生活</a>
+			<a id="a1" href="">食品保健</a>
+			<a id="a1" href="">韩国直邮</a>
+			<a id="a1" href="">跨境购</a>
+		</div>
+		<div class="black">
+			<img src="img/ff_03.jpg">
+		</div>
+	</div>
+	<div style="float:left;width:100%;height:37px;margin-top:5px;background-color:#f6f5f4;">
+		<p style="float:left;margin-left:85px;margin-top:13px;font-size:12px;">首页>美容护肤/美体/精油>防晒>韩国 RE:CIPE水晶清爽防水防晒喷雾SPF50 150ml/瓶</p>
+	</div>
+	<div style="width:85px;height:633px;float:left;background-color:#f6f5f4;"></div>
+	<div class="mid" style="width:990px;height:633px;float:left;background-color:#fff;">
+		<div style="width:435px;height:490px;float:left;">
+			<!-- <div id="bbox" style="width:435px;float:left;">
+				<div id="G1">
+					<div id="good" class="goods" style="width:410px;height:410px;float:left;margin-top:20px;margin-left:20px;border:solid;border-color:#9a9791;">
+					<img id="good1" src="img/pp0.jpeg">
+					<div id="sli" style="display:none;width:100px;height:100px;float:left;opacity:0.3;background:#63625c;"></div>
+					</div>
+				<div id="G2" style="display:none;width:435px;height:;float:left;">
+					<img src="img/pp0.jpeg" id="Bimg">
+				</div>
+				</div>
+			</div> -->
+		<div id="bbox">
+    		<div id="G1">
+    			<img id="good1" src="img/pp0.jpeg" width="300" height="300"/>
+         		<div id="sli" style="width:;height:;display:none;"></div>
+  			</div>
+    		<div id="G2" style="width:;height:;display:none;float:left;">
+        		<img src="img/pp0.jpeg" id="Bimg"/>
+    		</div>
+ 		</div>
+			<div style="width:410px;height:70px;float:left;margin-top:30px;">
+				<div style="width:27px;height:70px;float:left;" onclick="change1()"><img src="img/spanl.jpg"></div>
+				<div style="width:60px;height:70px;float:left;" onclick="change3()"><img src="img/sp0.jpeg"></div>
+				<div style="width:60px;height:70px;float:left;margin-top:4px;"  onclick="change4()"><img src="img/sp1.jpeg"></div>
+				<div style="width:27px;height:70px;float:left;margin-left:230px;"onclick="change2()"><img src="img/spanr.jpg"></div>
+			</div>
+		</div>
+		<div style="width:500px;height:435px;float:left;margin-left:15px;">
+			<div style="width:533px;height:72px;float:left;margin-left:20px;margin-top:20px;">
+				<div style="font-size:15px;">韩国RE:CIPE水晶清爽防水防晒喷雾SPF50 150ml/瓶</div>
+				<div style="width:461px;height:36px;float:left;margin-top:10px;font-size:11px;color:#676660;">【限购3件】超透明无痕防晒，防水防汗定妆，保湿降温不粘腻。水晶防晒喷雾，喷后皮肤水嫩，不油，不留白。更不会像防晒霜那样抹不开，非常实用，开始存货吧。
+				</div>
+			</div>
+			<div style="width:205px;height:20px;float:left;margin-left:25px;">
+				<div style="width:29px:height:20px;float:left;font-size:11px;">价格</div>
+				<div style="width:40px;height:20px;float:left;margin-left:45px;color:#ff0000;font-size:14px;">￥71</div>
+				<div style="width:36px;height:20px;float:left;margin-left:18px;font-size:12px;">￥150
+					</div>
+			</div>
+			<div style="width:502px;height:102px;float:left;margin-left:5px;">
+				<img src="img/ss_09.jpg">
+			</div>
+			<div style="width:504px;height:29px;float:left;margin-left:20px;position:relative;">
+				<div style="width:74px;height:18px;float:left;font-size:11px;margin-left:24px;">化妆品净含量
+				</div>
+				<div id="ml1" style="float:left;margin-left:30px;width:61px;height:26px;">
+					<div style="font-size:11px;float:left;width:38px;height:12px;margin-left:10px;margin-top:10px;" onclick="bord1(this)">150ml</div>
+					<div id="div1" style="width:13px;height:14px;float:left;margin-top:10px;"></div>
+				</div>
+				<div id="ml2" style="width:61px;height:26px;float:left;font-size:11px;margin-left:15px;">
+					<div style="font-size:11px;float:left;width:38px;height:12px;margin-left:10px;		margin-top:10px;" onclick="bord2(this)">200ml</div>
+					<div id="div2" style="width:13px;height:14px;float:left;margin-top:13px;"></div>
+				</div>
+			</div>
+			<div style="width:340px;height:30px;float:left;margin-left:20px;margin-top:25px;position:relative;">
+				<div style="width:30px;height:25px;float:left;font-size:12px;padding-top:5px;">数量</div>
+				<div style="width:120px;height:30px;float:left;margin-left:40px;">
+					<button onclick="minus()" style="width:25px;height:34px;float:left;border:solid;border-color:#cecbc5;text-align:center;padding-top:4px;background-color:#fff;">-</button>
+					<div id="number" style="width:50px;height:26px;float:left;border:solid;border-color:#cecbc5;text-align:center;padding-top:4px;">1</div>
+					<button onclick="add()" style="width:25px;height:34px;float:left;border:solid;border-color:#cecbc5;text-align:center;padding-top:4px;background-color:#fff;">+</button>
+				</div>
+				<div style="font-size:12px;width:16px;height:25px;float:left;margin-left:15px;padding-top:10px;">件</div>
+				<div id="num" style="width:72px;height:20px;float:left;margin-left:10px;font-size:12px;padding-top:10px;"></div>
+			</div>
+			<div style="width:300px;height:30px;float:left;margin-left:20px;margin-top:10px;">
+				<p style="width:30px;height:15px;font-size:12px;margin-top:10px;float:left;">销量</p>
+				<p style="width:16px;height:15px;float:left;font-size:14px;color:#ff0754;margin-left:40px;margin-top:10px;">81</p>
+				<p style="width:12px;height:12px;float:left;font-size:12px;color:black;margin-top:12px;">件</p>
+			</div>
+			<div style="width:190px;height:25px;float:left;margin-left:90px;margin-top:10px;">
+				<div style="width:55px;height:25px;float:left;font-size:13px;">您已选择</div>
+				<div id="orange" style="font-size:14px;color:#ff9003;width:64px;height:25px;float:left;">"150ml"</div>
+			</div>
+			<div style="width:340px;height:43px;float:left;margin-top:15px;margin-left:20px;position:relative;">
+				<button style="width:150px;height:40px;float:left;font-size:15px;color:#ff0754;background-color:white;border-style:dotted;border-color:#ff0754;" onclick="button1()">立即购买</button>
+				<button id="buy" style="width:150px;height:40px;float:left;margin-left:20px;font-size:15px;color:white;background-color:#ff0754;" onclick="button2()">加入购物车</button>
+			</div>
+			<div id="rush" style="width:410px;height:200px;border-style:solid;border-width:4px;border-color:#aca9d3;float:left;position:absolute;top:300px;left:450px;background-color:#fff;display:none;">
+				<button style="margin-left:395px;background-color:#fff;border:#fff;" id="rush_x">X</button>
+				<div style="width:268px;height:42px;float:left;margin-left:10px;"><img src="img/rr11_02.jpg"></div>
+				<div style="height:42px;width:333px;float:left;margin-left:40px;margin-top:60px;">
+					<button id='rush_one' style="width:150px;height:40px;background-color: white;color:#ff0754;font-size:14px;">继续购物</button>
+					<button id='rush_two' style="width:150px;height:40px;background-color:#ff0754;color: white;margin-left:20px;font-size:14px;position:relative;">去购物车结算</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="width:5px;height:623px;float:left;background-color:#f6f5f4;"></div>
+	<div style="width:160px;height:623px;float:left;"><img src="img/ww_07.jpg"></div>
+	<div style="width:100%;height:107px;float:left;background-color:#f7f6f5;">
+		<div style="width:1190px;height:107px;float:left;margin-left:70px;">
+			<img src="img/a_07.jpg">
+		</div>
+	</div>
+		<div style="width:100%;height:184px;float:left;background-color:#fff;">
+		<div style="width:151px;height:183px;float:left;margin-left:85px;">
+			<img src="img/loginB.jpg">
+		</div>
+		<div style="width:820px;height:184px;float:left;background-color:#fff;">
+			<div style="width:65px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">
+					购物指南
+				</div>
+				<ul style="width:65px;height:84px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">如何下单</li>
+					<li class="li">帮5购流程</li>
+					<li class="li">订单查询</li>
+					<li class="li">物流配送</li>
+				</ul>
+			</div>
+			 <div style="width:65px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">支付相关</div>
+				<ul style="width:65px;height:84px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">支付方式</li>
+					<li class="li">安全设置</li>
+					<li class="li">账户信息</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">售后服务</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">取消订单</li>
+					<li class="li">申请售后</li>
+					<li class="li">退货流程</li>
+					<li class="li">退款相关</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">VIP服务</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">VIP优惠</li>
+					<li class="li">如何成为VIP</li>
+					<li class="li">超级帮钻</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">帮韩品</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">韩国正品</li>
+					<li class="li">闪电发货</li>
+					<li class="li">帮韩品售后</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">更多</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">手机APP</li>
+					<li class="li">帮5采APP</li>
+					<li class="li">帮5淘插件</li>
+					<li class="li">其他</li>
+				</ul>
+			</div>
+		</div> 
+		<div style="width:122px;height:137px;float:left;margin-top:24px;">
+			<img src="img/erweima.jpg">
+		</div>
+	</div>
+	<div style="width:100%;height:36px;float:left;">
+		<ul id="menu">
+			<li><a href="">关于帮5买</a></li>
+			<li>|</li>
+			<li><a href="">联系我们</a></li>
+			<li>|</li>
+			<li><a href="">合作商家</a></li>
+			<li>|</li>
+			<li><a href="">友情链接</a></li>
+			<li>|</li>
+			<li><a href="">加入我们</a></li>
+			<li>|</li>
+			<li><a href="">移动应用</a></li>
+			<li>|</li>
+			<li><a href="">热门</a></li>
+			<li>|</li>
+			<li><a href="">广告联盟</a></li>
+			<li>|</li>
+			<li><a href="">使用条款</a></li>
+		</ul>
+	</div>
+	<div style="width:100%;height:62px;float:left;">
+		<div style="width:484px;height:11px;float:left;margin-left:340px;font-size:11px;color:#9a9791;margin-top:5px;">Copyright© 2011-2015 B5M.COM.All right reserved.Powered by B5Msoft Co.Ltd</div>
+		<div style="width:1064px;height:13px;float:left;margin-top:8px;margin-left:132px;font-size:11px;color:#9a9791;">增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034沪卫（中医）网审【2015】10032号沪ICP备11034776号-3|食品流通许可证：</div>
+		<div style="width:140px;height:13px;float:left;margin-top:8px;margin-left:555px;font-size:11px;color:#9a9791;">SP3101151410301755</div>
+	</div>
+	<div style="width:100%;height:52px;float:left;padding-bottom:0px;">
+		<div style="width:50px;height:52px;float:left;margin-left:285px;">
+			<img src="img/bo1.gif">
+		</div>
+		<div style="width:114px;height:52px;float:left;">
+			<img src="img/bo2.png">
+		</div>
+		<div style="width:104px;height:52px;float:left;">
+			<img src="img/bo3.gif">
+		</div>
+		<div style="width:128px;height:52px;float:left;">
+			<img src="img/bo4.png">
+		</div>
+		<div style="width:115px;height:52px;float:left;">
+			<img src="img/bo5.png">
+		</div>
+		<div style="width:108px;height:52px;float:left;">
+			<img src="img/bo6.png">
+		</div>
+		<div style="width:152px;height:52px;float:left;">
+			<img src="img/bo7.png">
+		</div>
+	</div>
+	<!-- script标签 -->
+	<script type="text/javascript">
+		//最上面的输入框效果
+		window.onload=function(){
+			var cover1=document.getElementsByClassName('cover')[0];
+			cover1.style.backgroundColor="white";
+			window.onscroll=function(){
+				var st=document.documentElement.scrollTop || document.body.scrollTop;
+				if(st>180){
+					cover1.style.position='fixed'
+				}
+				else{
+					cover1.style.position='static'
+				}
+			}
+		}
+		//数量的增加减少函数
+		var number=document.getElementById("number");
+		num.innerHTML= "(库存"+5+"件)";
+		//数量的显示
+		function add(){
+			if(number.innerHTML<5){
+				number.innerHTML=parseInt(number.innerHTML)+1;
+			}
+			else{
+				number.innerHTML=5;
+			}
+		}
+		function minus(){
+			if(number.innerHTML==1){
+				number.innerHTML=1;
+			}
+			else{
+				number.innerHTML=parseInt(number.innerHTML)-1;
+			}
+		}
+		//边框和图片的添加动效
+		var ml1=document.getElementById("ml1");
+		var ml2=document.getElementById("ml2");
+		var div1=document.getElementById("div1");
+		var div2=document.getElementById("div2");
+		//文本中的毫升数
+		var orange=document.getElementById("orange");
+		var img1=document.createElement("img");
+		img1.setAttribute("src","img/duigou.png");
+		var flag=true;
+		function bord1(that){
+			div1.appendChild(img1);
+			ml1.appendChild(div1);
+			ml1.style.borderStyle="solid";
+			ml1.style.borderColor="#ff0655";
+			flag=false;
+			if(flag==false){
+				ml2.style.borderColor="white";
+			}
+			orange.innerHTML='"'+that.innerHTML+'"';
+			orange.setAttribute("font-size","14px");
+		}
+		function bord2(that){
+			div2.appendChild(img1);
+			ml2.appendChild(div2);
+				ml2.style.borderStyle="solid";
+				ml2.style.borderColor="#ff0655";
+			flag=true;
+			if(flag==true){
+				ml1.style.borderColor="white";
+				orange.innerHTML='"'+that.innerHTML+'"';
+				orange.setAttribute("font-size","14px");
+			}
+		}
+		//加入购物车
+		var buy=document.getElementById('buy');
+	    var rush=document.getElementById('rush');
+	    var rush_x=document.getElementById('rush_x');
+	   	var rush_one=document.getElementById('rush_one');
+	   	var rush_two=document.getElementById('rush_two');
+	    buy.onclick=function(){
+	    	rush.style.display="block";
+	    }
+	    rush_one.onclick=function(){
+	    	rush.style.display="none";
+	    }
+	    rush_two.onclick=function(){
+	    	rush.style.display="none";
+	    }
+	    rush_x.onclick=function(){
+	    	rush.style.display="none";
+	    }
+	    //转换图片
+		var G1=document.getElementById('G1');//获取盒子id
+		var good1=document.getElementById('good1');//获取图片id
+		var Bimg=document.getElementById("Bimg");
+		var flag1=true;
+		function change3(){
+			good1.setAttribute("src","img/pp0.jpeg");
+			Bimg.setAttribute("src","img/pp0.jpeg");
+			G1.appendChild(good1);
+			flag1=false;
+		}
+		function change4(){
+			good1.setAttribute("src","img/pp1.jpeg");
+			Bimg.setAttribute("src","img/pp1.jpeg");
+			G1.appendChild(good1);
+			flag1=true;
+		}
+		function change1(){
+			if(flag1==true){
+				good1.setAttribute("src","img/pp0.jpeg");
+				Bimg.setAttribute("src","img/pp0.jpeg");
+				G1.appendChild(good1);
+				flag1=false;
+			}
+			else if(flag1==false){
+				good1.setAttribute("src","img/pp1.jpeg");
+				Bimg.setAttribute("src","img/pp1.jpeg");
+				G1.appendChild(good1);
+				flag1=true;
+			}
+		}
+		function change2(){
+			if(flag1==false){
+				good1.setAttribute("src","img/pp1.jpeg");
+				Bimg.setAttribute("src","img/pp1.jpeg");
+				G1.appendChild(good1);
+				flag1=true;
+			}
+			else if(flag1==true){
+				good1.setAttribute("src","img/pp0.jpeg");
+				Bimg.setAttribute("src","img/pp0.jpeg");
+				G1.appendChild(good1);
+				flag1=false;
+			}
+		}
+	    //放大图
+	    var G1 = document.getElementById('G1');
+ 		var G2 = document.getElementById('G2');
+ 		var Bimg = document.getElementById('Bimg');
+ 		var bbox = document.getElementById('bbox');
+ 		//局部放大
+ 		G1.onmouseover = function(){
+ 			sli.style.display = 'block';
+ 			G2.style.display = 'block';
+ 		}
+ 		//取消放大
+ 		G1.onmouseout = function(){
+ 			sli.style.display = 'none';
+ 			G2.style.display = 'none';
+ 		}
+ 		// 小方块滑动
+ 		G1.onmousemove = function(ev){
+ 			var oL =ev.clientX-bbox.offsetLeft-sli.offsetWidth/2;
+ 			var oT =ev.clientY-bbox.offsetTop-sli.offsetHeight/2;
+ 			var oMaxw = G1.offsetWidth-sli.offsetWidth;
+ 			var oMaxh = G1.offsetHeight-sli.offsetHeight;
+ 			oL = oL>oMaxw?oMaxw:oL<0?0:oL;
+ 			oT = oT>oMaxh?oMaxh:oT<0?0:oT;
+ 			sli.style.left=oL+'px';
+			sli.style.top=oT+'px';
+			console.log(G1.offsetWidth);
+			console.log(sli.offsetWidth);
+ 			var scale=-Bimg.offsetHeight/G1.offsetHeight;
+			Bimg.style.left=oL*scale+'px';
+			Bimg.style.top=oT*scale+'px';
+ 		}
+	</script>
+</body>
+</html>

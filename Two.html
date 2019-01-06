@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		a:link{ 
+			text-decoration: none;
+		}
+		.stright{
+			float:left;
+			margin-left:3px;
+			color:#ebe7e7;
+			width:1px;
+			height:18px;
+		}
+		.one{
+			float:left;
+			width:55px;
+			height:20px;
+			font-size:13px;
+		}
+		.two{
+			float:left;
+			margin-left:6px;
+			width:70px;
+			height:20px;
+			font-size:13px;
+		}
+		.three{
+			float:left;
+			margin-left:7px;
+			font-size:13px;
+			width:42px;
+			height:20px;
+		}
+		.four{
+			float:left;
+			margin-left:8px;
+			width:55px;
+			height:20px;
+			font-size:13px;
+		}
+		.five{
+			float:left;
+			margin-left:8px;
+			width:65px;
+			height:20px;
+			font-size:13px;
+		}
+		.six{
+			float:left;
+			margin-left:8px;
+			width:60px;
+			height:20px;
+			font-size:13px;
+		}
+		.seven{
+			float:left;
+			margin-left:8px;
+			width:40px;
+			height:20px;
+			font-size:13px;
+		}
+		.eight{
+			float:left;
+			margin-left:8px;
+			width:30px;
+			height:20px;
+			font-size:13px;
+		}
+		.nine{
+			float:left;
+			margin-left:8px;
+			width:45px;
+			height:20px;
+			font-size:13px;
+		}
+		.ten{
+			float:left;
+			margin-left:8px;
+			width:20px;
+			height:20px;
+			font-size:13px;
+		}
+		#ul4 li{
+			display:inline;
+			list-style-type:none;
+		}
+		.Lfirst{
+			padding-top:10px;
+			width:172px;
+			height:30px;
+			float:left;
+			background-color:#ff4d04;
+		}
+		.Lthree{
+			padding-top:10px;
+			width:54px;
+			height:30px;
+			float:left;
+			margin-left:38px;
+		}
+		.Lfour{
+			padding-top:10px;
+			width:60px;
+			height:30px;
+			float:left;
+			margin-left:38px;
+		}
+		#ul4 li a{
+			font-size:14px;
+			text-align:center;
+			color:#000;
+			text-decoration:none;
+		}
+		#ul4 li a:hover{
+			color:#ff4d04;
+		}
+		#many li{
+			list-style:none;
+			padding-top:10px;
+		}
+		#many li a{
+			padding-left:5px;
+			color:black;
+			text-decoration:none;
+		}
+		.li{
+			line-height:25px;
+		}
+		#menu{
+			width:654px;
+			height:16px;
+			float:left;
+			margin-left:290px;
+		}
+		#menu li{
+			display:inline;
+			text-decoration:none;
+			font-size:12px;
+			color:#666560;
+			margin-left:5px;
+		}
+		#menu li a{
+			text-decoration:none;
+			color:#666560;
+		}
+		.all{
+            width:780px;
+            height:360px;
+            float:left;
+            top:0px;
+            position:relative;
+        }
+        .screen{
+        	top:0px;
+            width:780px;
+            height:400px;
+            overflow:hidden;
+            position:relative;
+        }
+        .screen li{ width:800px; height:400px; overflow:hidden; float:left;top:0px;}
+        .screen ul{ position:absolute; left:0; top:0px; width:4800px;}
+        .all ol{ position:absolute; right:300px;bottom:35px; line-height:20px; text-align:center;}
+        .all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;border-radius:10px;}
+        .all ol li.current{ background:#fe6c00;}
+        #arr {display: none;}
+        #arr span{ width:40px; height:40px; position:absolute; left:5px; top:50%; margin-top:-20px; background:#000; cursor:pointer; line-height:40px; text-align:center; font-weight:bold; font-family:'黑体'; font-size:30px; color:#fff; opacity:0.3; border:1px solid #fff;}
+        #arr #right{right:5px; left:auto;}
+		#colee p{
+			font-size:11px;
+			list-style:none;
+			color:#ff4d04;
+			line-height:25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="cover" style="width:100%;height:156px;float:left;">
+		<div  style="float:left;height:30px;width:100%;margin-top:6px;">
+			<div  style="width:80px;height:14px;font-size:12px;color:#9a9791;float:left;margin-left:83px;">帮5买，享帮帮</div>
+			<div style="width:800px;height:30px;float:left;margin-left:310px;">
+				<div style="width:22px;height:22px;float:left;background:url(img/common_min.png) 0 -31px;"></div>
+				<div  style="width:22px;height:22px;float:left;margin-left:20px;background:url(img/common_min.png) 0 -51px;"></div>
+				<div style="width:22px;height:22px;float:left;margin-left:20px;background:url(img/common_min.png) 0 -73px;"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-left:16px;margin-top:4px;">登录</a>
+				<a href=""  style="font-size:13px;color:#9a9791;float:left;margin-left:16px;margin-top:4px;">注册</a>
+				<div style="width:16px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/dingdan.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">消息</a>
+				<div style="width:16px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/dingdan.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">我的订单</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">我的收藏</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">帮钻兑换</a>
+				<div style="width:10px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/tp-my-phone.png"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;">手机版</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">帮5淘</a>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">客户服务</a>
+				<div style="width:5px;height:12px;float:left;margin-left:16px;margin-top:4px;"><img src="img/gouwuche.jpg"></div>
+				<a href="" style="font-size:13px;color:#9a9791;float:left;margin-top:4px;margin-left:16px;">购物车</a>
+				<div style="font-size:13px;color:#fe6c00;font-weight:bold;float:left;margin-top:4px;margin-left:8px;">0</div>
+			</div>
+		</div>
+		<div style="float:left;height:115px;width:1180px;margin-left:83px;">
+			<div style="float:left;height:63px;width:143px;margin-top:14px;">
+				<img src="img/logo_03.jpg"></div>
+			<div style="width:590px;height:50px;float:left;margin-left:70px;margin-top:28px;">
+				<div style="width:590px;height:50px;float:left;">
+					<div style="width:503px;height:42px;float:left;margin-top:2px;">
+						<form>
+							<input type="text" name="init" style="width:500px;height:40px;border-width:4px;border-color:#fe6c00;" placeholder="输入商品网址或关键词，直通全网，快速帮5购！">
+						</form>
+					</div>
+					<div style="width:83px;height:48px;float:left;font-size:14px;color:white;background-color:#fe6c00;text-align:center;margin-top:1px;">
+						<p style="margin-top:15px"><a href="" style="color:white;">搜全网</a></p>
+					</div>
+				</div>
+				<div style="float:left;margin-top:10px;width:590px;height:23px;">
+					<div class="one"><a href="" style="color:#fe6c00;">洗发护发</a></div>
+					<div class="stright">|</div>
+					<div class="two"><a href="" style="color:#fe6c00;">日本纸尿裤</a></div>
+					<div class="stright">|</div>
+					<div class="three"><a href="">身体乳</a></div>
+					<div class="stright">|</div>
+					<div class="four"><a href="">内衣文胸</a></div>
+					<div class="stright">|</div>
+					<div class="five"><a href="" style="color:#b5a9d3;">iPhone 6s</a></div>
+					<div class="stright">|</div>
+					<div class="six"><a href="" style="color:#b5a9d3;">iPad Air2</a></div>
+					<div class="stright">|</div>
+					<div class="seven"><a href="">牛仔裤</a></div>
+					<div class="stright">|</div>
+					<div class="eight"><a href="">奶粉</a></div>
+					<div class="stright">|</div>
+					<div class="nine"><a href="">防晒霜</a></div>
+					<div class="stright">|</div>
+					<div class="ten"><a href="">伞</a></div>
+				</div>
+			</div>
+			<div style="width:280px;height:42px;float:left;margin-left:60px;margin-top:28px;">
+				<div style="width:95px;height:41px;float:left;border:solid;border-color:#e6e5e2;">
+					<div style="width:18px;height:18px;float:left;margin-left:32px;margin-top:6px;background:url(img/common_min.png) 0 -95px;"></div><div style="font-size:14px;width:95px;height:14px;float:left;color:#9a979e;">400-085-0505</div>
+				</div>
+				<div style="width:95px;height:41px;float:left;border:solid;border-color:#e6e5e2;">
+					<div style="width:18px;height:18px;float:left;margin-left:32px;margin-top:6px;background:url(img/common_min.png) 0 -113px;"></div><div style="font-size:14px;width:95px;height:14px;float:left;color:#9a979e;">mc@b5m.com</div>
+				</div>
+				<div style="width:82px;height:44px;float:left;background-color:#ff4d04;">
+					<div style="float:left;width:12px;height:12px;margin-left:2px;margin-top:15px;">
+					<img src="img/wenhao.jpg"></div>
+					<a href="" style="height:22px;float:left;margin-top:15px;margin-left:5px;font-size:11px;color:white;">常见问题</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="width:100%;height:40px;float:left;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ff3e01;">
+		<ul id="ul4" style="width:820px;height:40px;float:left;margin-left:84px;">
+			<li class="Lfirst"><a href="" style="color:white;margin-top:10px;margin-left:45px;">全部商品分类</a></li>
+			<li class="Lthree"><a href="" >帮5赚</a></li>
+			<li class="Lthree"><a href="">帮韩品</a></li>
+			<li class="Lthree"><a href="">超划算</a></li>
+			<li class="Lfour"><a href="">品牌货栈</a></li>
+			<li class="Lthree" style="margin-left:38px;"><a href="">韩国馆</a></li>
+			<li class="Lthree"><a href="">帮社区</a></li>
+			<li class="Lfour" style="padding-top:10px;width:52px;"><a href="">1元兑奖</a></li>
+		</ul>
+		<div style="width:30px;height:30px;float:left;margin-top:5px;"><img src="img/hot.gif"></div>
+	</div>
+	<div style="width:100%;height:550px;float:left;background-color:#f8f7f6;">
+		<div style="width:172px;height:424px;float:left;background-color:#fff;margin-left:84px;">
+			<div style="width:27px;height:350px;float:left;display:block;font-size:14px;color:#f2052f;background-color:#4c4c4a;text-align:center;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ff3e01;"><p style="width:27px;height:135px;float:left;margin-top:10px;">当前搜索电商<span style="width:27px;height:40px;float:left;margin-top:10px;">	全网</span></p>
+			</div>
+			<ul id="many" style="width:145px;height:350px;float:left;font-size:12px;color:black;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ff3e01;">
+				<li>
+					<a href="#">手机</a>
+					<a href="#">数码</a>
+					<a href="#">影音</a>
+					<a href="#">配件</a>
+				</li>
+				<li>
+					<a href="#">电脑</a>
+					<a href="#">网络</a>
+					<a href="#">办公</a>
+					<a href="#">打印</a>
+				</li>
+				<li>
+					<a href="#">家电</a>
+					<a href="#">厨卫</a>
+					<a href="#">生活</a>
+					<a href="#">个户</a>
+				</li>
+				<li>
+					<a href="#">园艺</a>
+					<a href="#">家具</a>
+					<a href="#">家纺</a>
+					<a href="#">家饰</a>
+				</li>
+				<li>
+					<a href="#">彩妆</a>
+					<a href="#">面部</a>
+					<a href="#">身体</a>
+					<a href="#">香水</a>
+				</li>
+				<li>
+					<a href="#">男装</a>
+					<a href="#">女装</a>
+					<a href="#">内衣</a>
+					<a href="#">其他</a>
+				</li>
+				<li>
+					<a href="#">女包</a>
+					<a href="#">男包</a>
+					<a href="#">女鞋</a>
+					<a href="#">男鞋</a>
+				</li>
+				<li>
+					<a href="#">运动</a>
+					<a href="#">户外</a>
+					<a href="#">装备</a>
+					<a href="#">服饰</a>
+				</li>
+				<li>
+					<a href="#">儿童</a>
+					<a href="#">婴儿</a>
+					<a href="#">食品</a>
+					<a href="#">玩具</a>
+				</li>
+				<li>
+					<a href="#">乐器</a>
+					<a href="#">家宠</a>
+					<a href="#">收藏</a>
+					<a href="#">鲜花</a>
+				</li>
+				<li>
+					<a href="#">保健</a>
+					<a href="#">理疗</a>
+					<a href="#">药品</a>
+					<a href="#">眼镜</a>
+				</li>
+				<li>
+					<a href="#">果蔬</a>
+					<a href="#">礼品</a>
+					<a href="#">粮油</a>
+					<a href="#">特产</a>
+				</li>
+				<li>
+					<a href="#">文艺</a>
+					<a href="#">生活</a>
+					<a href="#">科技</a>
+					<a href="#">教育</a>
+				</li>		
+			</ul>
+			<div style="width:172px;height:180px;float:left;background-color:#fff;margin-top:20px;">
+				<div style="width:172px;height:33px;float:left;margin-top:5px;">
+					<div style="width:28px;height:28px;float:left;margin-left:2px;"><img src="img/dd_03.jpg"></div>
+					<div style="width:120px;height:38px;float:left;margin-left:2px;font-size:12px;">什么是帮5购</div>
+				</div>
+				<div style="width:172px;height:33px;float:left;margin-top:4px;">
+					<div style="width:28px;height:28px;float:left;margin-left:2px;"><img src="img/dd_06.jpg"></div>
+					<div style="width:120px;height:38px;float:left;margin-left:2px;font-size:12px;">帮5购提供什么服务</div>
+				</div>
+				<div style="width:172px;height:33px;float:left;margin-top:4px;">
+					<div style="width:28px;height:28px;float:left;margin-left:2px;"><img src="img/dd_08.jpg"></div>
+					<div style="width:120px;height:38px;float:left;margin-left:2px;font-size:12px;">如何开通帮5购服务</div>
+				</div>
+			</div>
+		</div>
+		<div style="width:800px;height:550px;float:left;">
+			<div class="all" id='all'>
+    			<div class="screen" id="screen">
+        			<ul id="ul">
+            			<li><img src="img/bann1.jpeg" alt=""></li>
+            			<li><img src="img/bann2.jpeg" alt=""></li>
+            			<li><img src="img/bann3.jpeg" alt=""></li>
+            			<li><img src="img/bann4.jpeg" alt=""></li>
+            			<li><img src="img/bann5.jpeg" alt=""></li>
+            			<li><img src="img/bann6.png" alt=""></li>
+        			</ul>
+        			<ol></ol>
+        			<div id="arr">
+            			<span id="left"><</span>
+            			<span id="right">></span>
+        			</div>
+    			</div>
+			</div>
+				<div style="width:800px;height:184px;float:left;margin-top:10px;">
+					<div style="width:200px;height:184px;float:left;"><a href="file:///D:/web-2%E7%BB%83%E4%B9%A0/web%E5%A4%A7%E4%BD%9C%E4%B8%9A/Web%E5%BC%80%E5%8F%91%E4%BA%8C%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E4%BB%BB%E5%8A%A1%E6%89%80%E9%9C%80%E5%B0%8F%E5%9B%BE/Big.html"  target="_blank"><img src="img/1(1).jpg"></a></div>
+					<div style="width:200px;height:184px;float:left;"><a href="file:///D:/web-2%E7%BB%83%E4%B9%A0/web%E5%A4%A7%E4%BD%9C%E4%B8%9A/Web%E5%BC%80%E5%8F%91%E4%BA%8C%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E4%BB%BB%E5%8A%A1%E6%89%80%E9%9C%80%E5%B0%8F%E5%9B%BE/Big.html"  target="_blank"><img src="img/2.jpg"></a></div>
+					<div style="width:200px;height:184px;float:left;"><a href="file:///D:/web-2%E7%BB%83%E4%B9%A0/web%E5%A4%A7%E4%BD%9C%E4%B8%9A/Web%E5%BC%80%E5%8F%91%E4%BA%8C%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E4%BB%BB%E5%8A%A1%E6%89%80%E9%9C%80%E5%B0%8F%E5%9B%BE/Big.html"><img src="img/3(1).png"></a></div>
+					<div style="width:200px;height:184px;float:left;"><a href="file:///D:/web-2%E7%BB%83%E4%B9%A0/web%E5%A4%A7%E4%BD%9C%E4%B8%9A/Web%E5%BC%80%E5%8F%91%E4%BA%8C%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E4%BB%BB%E5%8A%A1%E6%89%80%E9%9C%80%E5%B0%8F%E5%9B%BE/Big.html"  target="_blank"><img src="img/qqq.png"></a></div>
+				</div>
+		</div>
+		<div style="width:145px;height:550px;float:left;background-color:#fff;">
+	 		<div style="width:145px;height:40px;float:left;border-bottom-style:solid;">
+				<div style="width:22px;height:20px;float:left;margin-top:8px;margin-left:7px;">
+					<img src="img/ico-notice.png"></div>
+				<div style="width:110px;height:15px;float:left;font-size:12px;color:#ff4d04;margin-top:12px;margin-left:5px;"> 帮帮快讯&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp>></div>
+			</div>
+			<div id="colee" style="overflow:hidden;height:253px;width:145px;margin-left:4px;">
+				<div id="colee1">
+					<p>[公告]帮购及VIP服务调整1</p>
+					<p>[公告]帮购及VIP服务调整2</p>
+					<p>[公告]帮购及VIP服务调整3</p>
+					<p>[公告]帮购及VIP服务调整4</p>
+					<p>[公告]帮购及VIP服务调整5</p>
+					<p>[公告]帮购及VIP服务调整6</p>
+					<p>[公告]帮购及VIP服务调整7</p>
+					<p>[公告]帮购及VIP服务调整8</p>
+					<p>[公告]帮购及VIP服务调整9</p>
+					<p>[公告]帮购及VIP服务调整10</p>
+					<p>[公告]帮购及VIP服务调整11</p>
+				</div>
+				<div id="colee2"></div>
+			</div>
+			<div style="width:145px;height:160px;float:left;background-color:#fff;">
+				<div style="width:145px;height:20px;float:left;">
+					<div style="width:12px;height:45px;float:left;margin-left:4px;"><img src="img/phone.png"></div>
+					<p style="float:left;width:129px;height:45px;font-size:11px;">话费充值<span style="color:#ff4d04;">(可使用超级帮贴)<span></p>
+				</div>
+				<form style="float:left;">
+					<input type="text" name="" placeholder="请输入手机号" style="width:100px;height:20px;color:#ada8a3;font-size:11px;margin-left:10px;">
+				</form>
+				<form style="float:left;margin-left:10px;margin-top:5px;">
+					<select name="choose" id="choose1">
+						<option value="1">30</option>
+						<option value="2">50</option>
+						<option value="3">100</option>
+						<option value="4">10</option>
+					</select>
+				</form>
+				<div id="money" style="width:24px;height:15px;float:left;margin-left:5px;font-size:12px;color:#ff4d04;margin-top:8px;">￥30</div>
+				<button style="height:28px;width:140px;float:left;font-size:12px;color:white;background-color:#ff4d04;margin-top:10px;">充值</button>
+			</div>
+		</div>
+	</div>
+	<div style="width:100%;height:184px;float:left;background-color:#f8f7f6;">
+		<div style="width:151px;height:183px;float:left;margin-left:85px;">
+			<img src="img/loginB.jpg">
+		</div>
+		<div style="width:820px;height:184px;float:left;background-color:#f8f7f6;">
+			<div style="width:65px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">
+					购物指南
+				</div>
+				<ul style="width:65px;height:84px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">如何下单</li>
+					<li class="li">帮5购流程</li>
+					<li class="li">订单查询</li>
+					<li class="li">物流配送</li>
+				</ul>
+			</div>
+			 <div style="width:65px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">支付相关</div>
+				<ul style="width:65px;height:84px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">支付方式</li>
+					<li class="li">安全设置</li>
+					<li class="li">账户信息</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">售后服务</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">取消订单</li>
+					<li class="li">申请售后</li>
+					<li class="li">退货流程</li>
+					<li class="li">退款相关</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">VIP服务</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">VIP优惠</li>
+					<li class="li">如何成为VIP</li>
+					<li class="li">超级帮钻</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">帮韩品</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">韩国正品</li>
+					<li class="li">闪电发货</li>
+					<li class="li">帮韩品售后</li>
+				</ul>
+			</div>
+			<div style="width:66px;height:184px;float:left;margin-left:60px;">
+				<div style="width:65px;height:19px;float:left;font-size:14px;margin-top:30px;">更多</div>
+				<ul style="width:62px;height:48px;float:left;list-style-type:none;font-size:12px;color:#666560;padding:0px;margin-top:5px;">
+					<li class="li">手机APP</li>
+					<li class="li">帮5采APP</li>
+					<li class="li">帮5淘插件</li>
+					<li class="li">其他</li>
+				</ul>
+			</div>
+		</div> 
+		<div style="width:122px;height:137px;float:left;margin-top:24px;">
+			<img src="img/erweima.jpg">
+		</div>
+	</div>
+	<div style="width:100%;height:36px;float:left;background-color:#f8f7f6;">
+		<ul id="menu">
+			<li><a href="">关于帮5买</a></li>
+			<li>|</li>
+			<li><a href="">联系我们</a></li>
+			<li>|</li>
+			<li><a href="">合作商家</a></li>
+			<li>|</li>
+			<li><a href="">友情链接</a></li>
+			<li>|</li>
+			<li><a href="">加入我们</a></li>
+			<li>|</li>
+			<li><a href="">移动应用</a></li>
+			<li>|</li>
+			<li><a href="">热门</a></li>
+			<li>|</li>
+			<li><a href="">广告联盟</a></li>
+			<li>|</li>
+			<li><a href="">使用条款</a></li>
+		</ul>
+	</div>
+	<div style="width:100%;height:62px;float:left;background-color:#f8f7f6;">
+		<div style="width:484px;height:11px;float:left;margin-left:340px;font-size:11px;color:#9a9791;margin-top:5px;">Copyright© 2011-2015 B5M.COM.All right reserved.Powered by B5Msoft Co.Ltd</div>
+		<div style="width:1064px;height:13px;float:left;margin-top:8px;margin-left:132px;font-size:11px;color:#9a9791;">增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034沪卫（中医）网审【2015】10032号沪ICP备11034776号-3|食品流通许可证：</div>
+		<div style="width:140px;height:13px;float:left;margin-top:8px;margin-left:555px;font-size:11px;color:#9a9791;">SP3101151410301755</div>
+	</div>
+	<div style="width:100%;height:52px;float:left;padding-bottom:0px;background-color:#f8f7f6;">
+		<div style="width:50px;height:52px;float:left;margin-left:285px;">
+			<img src="img/bo1.gif">
+		</div>
+		<div style="width:114px;height:52px;float:left;">
+			<img src="img/bo2.png">
+		</div>
+		<div style="width:104px;height:52px;float:left;">
+			<img src="img/bo3.gif">
+		</div>
+		<div style="width:128px;height:52px;float:left;">
+			<img src="img/bo4.png">
+		</div>
+		<div style="width:115px;height:52px;float:left;">
+			<img src="img/bo5.png">
+		</div>
+		<div style="width:108px;height:52px;float:left;">
+			<img src="img/bo6.png">
+		</div>
+		<div style="width:152px;height:52px;float:left;">
+			<img src="img/bo7.png">
+		</div>
+	</div>
+	<script type="text/javascript">
+		window.onload=function(){
+			var cover1=document.getElementsByClassName('cover')[0];
+			cover1.style.backgroundColor="white";
+			window.onscroll=function(){
+				var st=document.documentElement.scrollTop || document.body.scrollTop;
+				if(st>180){
+					cover1.style.position='fixed'
+				}
+				else{
+					cover1.style.position='static'
+				}
+			}
+		}
+	//获取金钱
+	var choose=document.getElementById("choose1");
+	var money=document.getElementById("money");
+	var arr=new Array(30,50,100,10);
+	choose.onclick=function(){
+		money.innerHTML="￥"+arr[choose.value-1];	
+	}
+	//轮播图
+       window.onload = function () {
+            var screen = document.getElementById("screen");
+            var ul = screen.children[0];
+            var ol = screen.children[1];
+            var div = screen.children[2];
+            var imgWidth = screen.offsetWidth;
+ 
+            //2
+            var tempLi = ul.children[0].cloneNode(true);
+            ul.appendChild(tempLi);
+            //3
+            for(var i = 0; i < ul.children.length - 1; i++) {
+                var newOlLi = document.createElement("li");
+                newOlLi.innerHTML = i + 1;
+                ol.appendChild(newOlLi);
+            }
+            var olLiArr = ol.children;
+            olLiArr[0].className = "current";
+            //4
+            for(var i = 0, len = olLiArr.length; i < len; i++) {
+                olLiArr[i].index = i;
+                olLiArr[i].onmouseover = function (ev) {
+                    for(var j = 0; j < len; j++) {
+                        olLiArr[j].className = "";
+                    }
+                    this.className = "current";
+                    key = square = this.index;
+                    animate(ul, -this.index * imgWidth);
+                }
+            }
+            //5
+            var key = 0;
+            var square = 0;
+            var timer = setInterval(autoPlay, 2000);
+            screen.onmouseover = function (ev) {
+                clearInterval(timer);
+                div.style.display = "block";
+            }
+            screen.onmouseout = function (ev) {
+                timer = setInterval(autoPlay, 2000);
+                div.style.display = "none";
+            }
+            //6
+            var divArr = div.children;
+            divArr[0].onclick = function (ev) {
+                key--;
+                if(key < 0) {
+                    ul.style.left = -(ul.children.length-1) * imgWidth + "px";
+                    key = 5;
+                }
+                animate(ul, -key * imgWidth);
+                square--;
+                if(square < 0) {
+                    square = 5;
+                }
+                for(var k = 0; k < len; k++) {
+                    olLiArr[k].className = "";
+                }
+                olLiArr[square].className = "current";
+            }
+            divArr[1].onclick = autoPlay;
+            function autoPlay() {
+                key++;
+                //当不满足下面的条件是时候，轮播图到了最后一个孩子，进入条件中后，瞬移到
+                //第一张，继续滚动。
+                if(key > ul.children.length - 1) {
+                    ul.style.left = 0;
+                    key = 1;
+                }
+                animate(ul, -key * imgWidth);
+                square++;
+                if(square > 5) {
+                    square = 0;
+                }
+                for(var k = 0; k < len; k++) {
+                    olLiArr[k].className = "";
+                }
+                olLiArr[square].className = "current";
+            }
+            function animate(ele,target){
+                    clearInterval(ele.timer);
+                    var speed = target>ele.offsetLeft?10:-10;
+                    ele.timer = setInterval(function () {
+                        var val = target - ele.offsetLeft;
+                        ele.style.left = ele.offsetLeft + speed + "px";
+                        if(Math.abs(val)<Math.abs(speed)){
+                            ele.style.left = target + "px";
+                            clearInterval(ele.timer);
+                        }
+                    },10)  
+            }
+ 
+        }
+		//向上滚动
+		var speed=30;
+		var colee2=document.getElementById("colee2");
+		var colee1=document.getElementById("colee1");
+		var colee=document.getElementById("colee");
+		colee2.innerHTML=colee1.innerHTML; //克隆colee1为colee2
+		function Marquee1(){
+		//当滚动至colee1与colee2交界时
+			if(colee2.offsetTop-colee.scrollTop<=0){
+	 			colee.scrollTop-=colee1.offsetHeight;
+	 		} //colee跳到最顶端
+ 			else{
+ 				colee.scrollTop++
+			}
+		}
+		var MyMar1=setInterval(Marquee1,speed)//设置定时器
+		//鼠标移上时清除定时器达到滚动停止的目的
+		colee.onmouseover=function() {clearInterval(MyMar1)}
+		//鼠标移开时重设定时器
+		colee.onmouseout=function(){MyMar1=setInterval(Marquee1,speed)}
+	</script>
+</body>
+</html>
